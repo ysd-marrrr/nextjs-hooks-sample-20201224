@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  frontend:
+    image: node:lts
+    container_name: next-sample
+    tty: true
+    volumes: 
+      - ./src:/app
+    ports:
+      - 3000:3000
+    working_dir: /app

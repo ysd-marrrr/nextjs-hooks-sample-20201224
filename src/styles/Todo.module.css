@@ -1,0 +1,21 @@
+.todolist {
+  text-align: left;
+}
+
+.todosel {
+  width: 100%;
+  text-align: center;
+}
+
+.todosellist {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.todoselitem {
+  display: inline-block;
+  padding: 0.5rem 3rem;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
